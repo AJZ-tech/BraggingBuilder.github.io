@@ -5,6 +5,7 @@ h1 {
 table {
     border-collapse: collapse;
     width: 100%;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .tablestyle2 th {
