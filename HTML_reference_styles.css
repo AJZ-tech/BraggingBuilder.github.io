@@ -28,7 +28,6 @@ tr:nth-child(even) {
   width: auto;
   margin: 10px 0px;
   background-color: lightgrey;
-  box-shadow: 10px 10px 5px grey;
 }
 #box h2 {
   color: white;
