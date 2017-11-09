@@ -13,7 +13,7 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 #box {
-  border: 5px solid lightgreen;
+  border: 5px solid #4CAF50;
   position: relative;
   width: auto;
   margin: 10px 0px;
@@ -31,7 +31,7 @@ tr:nth-child(even) {
 #box .example {
   margin: 20px 9%;
   background-color: white;
-  border-left: 7px solid lightgreen;
+  border-left: 7px solid #4CAF50;
   padding: 10px 0px; 
 }
 #box b {
