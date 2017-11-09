@@ -1,0 +1,39 @@
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#box {
+  border: 5px solid lightgreen;
+  position: relative;
+  width: auto;
+  margin: 10px 0px;
+  background-color: lightgrey;
+}
+#box h2 {
+  color: white;
+  border-left: 7px solid green;
+  margin-left: 5%;
+  
+}
+#box .description {
+  margin-left: 9%;
+}
+#box .example {
+  margin: 20px 9%;
+  background-color: white;
+  border-left: 7px solid lightgreen;
+  padding: 10px 0px; 
+}
+#box b {
+  margin-left: 7%;
+}
