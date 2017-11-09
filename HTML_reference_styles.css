@@ -5,7 +5,6 @@ h1 {
 table {
     border-collapse: collapse;
     width: 100%;
-    box-shadow: 10px 10px 5px grey;
 }
 
 .tablestyle2 th {
@@ -22,29 +21,29 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-#box {
+.box {
   border: 5px solid #4CAF50;
   position: relative;
   width: auto;
   margin: 10px 0px;
   background-color: lightgrey;
 }
-#box h2 {
+.box h2 {
   color: white;
   border-left: 7px solid green;
   margin-left: 5%;
   
 }
-#box .description {
+.box .description {
   margin-left: 9%;
 }
-#box .example {
+.box .example {
   margin: 20px 9%;
   background-color: white;
   border-left: 7px solid #4CAF50;
   padding: 10px 0px; 
   font-family: "Lucida Console", Monaco, monospace;
 }
-#box b {
+.box b {
   margin-left: 7%;
 }
