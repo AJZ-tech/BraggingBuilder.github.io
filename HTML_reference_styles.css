@@ -15,7 +15,8 @@ table {
 td, th {
     border: 1px solid #4CAF50;
     text-align: center;
-    padding: 8px auto;
+    padding: 20px auto;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 
 tr:nth-child(even) {
