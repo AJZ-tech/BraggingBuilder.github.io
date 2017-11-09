@@ -42,6 +42,7 @@ tr:nth-child(even) {
   background-color: white;
   border-left: 7px solid #4CAF50;
   padding: 10px 0px; 
+  font-family: "Lucida Console", Monaco, monospace;
 }
 #box b {
   margin-left: 7%;
