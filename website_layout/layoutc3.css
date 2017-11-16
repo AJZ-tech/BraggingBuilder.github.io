@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  overflow: scroll;
+  padding-top: 200px;
+}
+
+/* Style the header */
+.header {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 204, 255), 0 0 5px darkblue, 0 0 12px rgb(102, 255, 255);
+    background: url("https://i.pinimg.com/originals/03/f5/ba/03f5bae26cd002cf3f0ecec790a29a6d.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background: url("https://i.pinimg.com/originals/03/f5/ba/03f5bae26cd002cf3f0ecec790a29a6d.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 50px blue, 0 0 5px darkblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 2px solid #3e8e41;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+    background-color: #3e8e41;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* indicate active page on nav */
+.active {
+    background-color:rgba(76, 175, 80, 1) !important;
+}
+
+/* A - Create three unequal columns that floats next to each other */
+.column {
+    float: right;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: #404040;
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+.footer a {
+  border-right: 1px solid white;
+  padding: 1%;
+}
+.menuItems {
+  
+}
+.w3-top {
+  border-bottom: 10px solid grey;
+}
+.gallery {
+  
+}
