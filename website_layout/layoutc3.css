@@ -10,7 +10,6 @@ body {
   overflow: scroll;
   padding-top: 200px;
 }
-
 /* Style the header */
 .header {
     padding: 20px;
@@ -100,6 +99,12 @@ body {
 .w3-top {
   border-bottom: 10px solid grey;
 }
-.gallery {
-  
+.w3-quarter {
+  border: 2px groove grey;
+  border-radius: 10px;
+}
+.w3-quarter img {
+  border: 3px inset grey;
+  background-color: darkgrey;
+  margin-top: 5px;
 }
