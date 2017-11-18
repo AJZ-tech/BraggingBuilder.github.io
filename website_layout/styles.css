@@ -6,7 +6,9 @@
   font-family:"Ariel", sans-serif;
   color:black;
 }
-
+.about {
+  margin: 0 5px;
+}
 img {
   width:100%;
 }
@@ -71,4 +73,13 @@ span.psw {
     .cancelbtn {
        width: 100%;
     }
+}
+mySlides {
+  display:none
+}
+.w3-left, .w3-right, .w3-badge {
+  cursor:pointer
+}
+.w3-badge {
+  height:18px;padding:0
 }
